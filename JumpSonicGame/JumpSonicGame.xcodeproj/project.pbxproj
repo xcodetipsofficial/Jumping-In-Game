@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB967E5723AA1BAB007AC613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB967E5623AA1BAB007AC613 /* AppDelegate.swift */; };
+		AB967E5D23AA1BAB007AC613 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB967E5C23AA1BAB007AC613 /* GameScene.swift */; };
+		AB967E5F23AA1BAB007AC613 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB967E5E23AA1BAB007AC613 /* GameViewController.swift */; };
+		AB967E6223AA1BAB007AC613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB967E6023AA1BAB007AC613 /* Main.storyboard */; };
+		AB967E6423AA1BAD007AC613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB967E6323AA1BAD007AC613 /* Assets.xcassets */; };
+		AB967E6723AA1BAD007AC613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB967E6523AA1BAD007AC613 /* LaunchScreen.storyboard */; };
+		AB967E6F23AA1CC1007AC613 /* sonic-jump.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AB967E6E23AA1CC1007AC613 /* sonic-jump.atlas */; };
+		AB967E7123AA1CC6007AC613 /* sonic-run.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AB967E7023AA1CC6007AC613 /* sonic-run.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB967E5323AA1BAB007AC613 /* JumpSonicGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpSonicGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB967E5623AA1BAB007AC613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB967E5C23AA1BAB007AC613 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AB967E5E23AA1BAB007AC613 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AB967E6123AA1BAB007AC613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB967E6323AA1BAD007AC613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB967E6623AA1BAD007AC613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB967E6823AA1BAD007AC613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB967E6E23AA1CC1007AC613 /* sonic-jump.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "sonic-jump.atlas"; sourceTree = "<group>"; };
+		AB967E7023AA1CC6007AC613 /* sonic-run.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "sonic-run.atlas"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB967E5023AA1BAB007AC613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB967E4A23AA1BAB007AC613 = {
+			isa = PBXGroup;
+			children = (
+				AB967E5523AA1BAB007AC613 /* JumpSonicGame */,
+				AB967E5423AA1BAB007AC613 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB967E5423AA1BAB007AC613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB967E5323AA1BAB007AC613 /* JumpSonicGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB967E5523AA1BAB007AC613 /* JumpSonicGame */ = {
+			isa = PBXGroup;
+			children = (
+				AB967E7023AA1CC6007AC613 /* sonic-run.atlas */,
+				AB967E6E23AA1CC1007AC613 /* sonic-jump.atlas */,
+				AB967E5623AA1BAB007AC613 /* AppDelegate.swift */,
+				AB967E5C23AA1BAB007AC613 /* GameScene.swift */,
+				AB967E5E23AA1BAB007AC613 /* GameViewController.swift */,
+				AB967E6023AA1BAB007AC613 /* Main.storyboard */,
+				AB967E6323AA1BAD007AC613 /* Assets.xcassets */,
+				AB967E6523AA1BAD007AC613 /* LaunchScreen.storyboard */,
+				AB967E6823AA1BAD007AC613 /* Info.plist */,
+			);
+			path = JumpSonicGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB967E5223AA1BAB007AC613 /* JumpSonicGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB967E6B23AA1BAD007AC613 /* Build configuration list for PBXNativeTarget "JumpSonicGame" */;
+			buildPhases = (
+				AB967E4F23AA1BAB007AC613 /* Sources */,
+				AB967E5023AA1BAB007AC613 /* Frameworks */,
+				AB967E5123AA1BAB007AC613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumpSonicGame;
+			productName = JumpSonicGame;
+			productReference = AB967E5323AA1BAB007AC613 /* JumpSonicGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB967E4B23AA1BAB007AC613 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Xcode Tips";
+				TargetAttributes = {
+					AB967E5223AA1BAB007AC613 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = AB967E4E23AA1BAB007AC613 /* Build configuration list for PBXProject "JumpSonicGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB967E4A23AA1BAB007AC613;
+			productRefGroup = AB967E5423AA1BAB007AC613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB967E5223AA1BAB007AC613 /* JumpSonicGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB967E5123AA1BAB007AC613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB967E6F23AA1CC1007AC613 /* sonic-jump.atlas in Resources */,
+				AB967E6223AA1BAB007AC613 /* Main.storyboard in Resources */,
+				AB967E7123AA1CC6007AC613 /* sonic-run.atlas in Resources */,
+				AB967E6423AA1BAD007AC613 /* Assets.xcassets in Resources */,
+				AB967E6723AA1BAD007AC613 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB967E4F23AA1BAB007AC613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB967E5D23AA1BAB007AC613 /* GameScene.swift in Sources */,
+				AB967E5F23AA1BAB007AC613 /* GameViewController.swift in Sources */,
+				AB967E5723AA1BAB007AC613 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB967E6023AA1BAB007AC613 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB967E6123AA1BAB007AC613 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB967E6523AA1BAD007AC613 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB967E6623AA1BAD007AC613 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB967E6923AA1BAD007AC613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB967E6A23AA1BAD007AC613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB967E6C23AA1BAD007AC613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36XH69Z83;
+				INFOPLIST_FILE = JumpSonicGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcodetips.JumpSonicGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB967E6D23AA1BAD007AC613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36XH69Z83;
+				INFOPLIST_FILE = JumpSonicGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcodetips.JumpSonicGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB967E4E23AA1BAB007AC613 /* Build configuration list for PBXProject "JumpSonicGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB967E6923AA1BAD007AC613 /* Debug */,
+				AB967E6A23AA1BAD007AC613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB967E6B23AA1BAD007AC613 /* Build configuration list for PBXNativeTarget "JumpSonicGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB967E6C23AA1BAD007AC613 /* Debug */,
+				AB967E6D23AA1BAD007AC613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB967E4B23AA1BAB007AC613 /* Project object */;
+}
